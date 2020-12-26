@@ -1,0 +1,153 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue May 26 17:58:37 2020
+[*]
+[dumpfile] "/home/frank/Work/x8/fpga/source/usb/sim/tb.vcd"
+[dumpfile_mtime] "Tue May 26 17:56:53 2020"
+[dumpfile_size] 1260614
+[savefile] "/home/frank/Work/x8/fpga/source/usb/sim/tb.gtkw"
+[timestart] 0
+[size] 1920 1024
+[pos] 143 120
+*-24.399101 40100000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[treeopen] tb.usbhost.
+[sst_width] 261
+[signals_width] 289
+[sst_expanded] 1
+[sst_vpaned_height] 475
+@28
+tb.usbhost.rst
+tb.usbhost.clk
+@200
+-
+@28
+tb.usbhost.port1_mode[1:0]
+tb.usbhost.port1_dpdm[1:0]
+tb.usbhost.port1_addr[2:0]
+@200
+-
+@28
+tb.usbhost.port2_mode[1:0]
+tb.usbhost.port2_dpdm[1:0]
+tb.usbhost.port2_addr[2:0]
+@200
+-
+@28
+tb.usbhost.crc16_valid
+tb.usbhost.timeout
+tb.usbhost.busy
+@200
+-
+@28
+tb.usbhost.xfer_reset
+@200
+-
+@28
+tb.usbhost.xfer_done_pulse
+tb.usbhost.sof_pulse
+@200
+-
+@22
+tb.usbhost.xfer_endpoint[3:0]
+@28
+tb.usbhost.xfer_type[1:0]
+tb.usbhost.xfer_data_type
+tb.usbhost.xfer_port
+tb.usbhost.xfer_start
+@200
+-
+@22
+tb.usbhost.txfifo_data[7:0]
+@28
+tb.usbhost.txfifo_write
+@23
+tb.usbhost.txfifo_rddata[7:0]
+@200
+-
+@22
+tb.usbhost.rxfifo_data[7:0]
+@28
+tb.usbhost.rxfifo_read
+tb.usbhost.rxfifo_not_empty
+@200
+-
+@28
+tb.usbhost.usb1_dp
+tb.usbhost.usb1_dm
+@200
+-
+@28
+tb.usbhost.usb2_dp
+tb.usbhost.usb2_dm
+@200
+-
+@28
+tb.usbhost.usb_tx_dp1
+tb.usbhost.usb_tx_dm1
+tb.usbhost.usb_tx_oe1
+@200
+-Internal
+@22
+tb.usbhost.rxfifo_wrdata_r[7:0]
+@28
+tb.usbhost.rxfifo_write
+@200
+-
+@28
+tb.usbhost.usb_rx.rx_valid
+@22
+tb.usbhost.usb_rx.rx_data[7:0]
+@200
+-
+@28
+tb.usbhost.txfifo_empty
+@200
+-
+@28
+tb.usbhost.txfifo_empty
+@22
+tb.usbhost.txfifo_data[7:0]
+@28
+tb.usbhost.txfifo_write
+@24
+tb.usbhost.usb_txfifo.wridx[8:0]
+tb.usbhost.usb_txfifo.rdidx[8:0]
+@22
+tb.usbhost.usb_txfifo.rddata[7:0]
+tb.usbhost.txfifo_rddata[7:0]
+@28
+tb.usbhost.txfifo_read
+tb.usbhost.txfifo_read_r
+tb.usbhost.tx_ready
+tb.usbhost.tx_valid
+@200
+-
+@28
+tb.usbhost.sof_pulse_r
+tb.usbhost.sof_required_r
+@2024
+^1 /home/frank/Work/x8/fpga/source/usb/sim/state.txt
+tb.usbhost.state_r[3:0]
+@28
+tb.usbhost.tx_only_eop
+tb.usbhost.xfer_do_start
+tb.usbhost.xfer_started
+tb.usbhost.sof_sent_r
+tb.usbhost.xfer_done_pulse_r
+tb.usbhost.xfer_done_pulse
+tb.usbhost.is_timeout
+@200
+-Transmitter
+@28
+tb.usbhost.usb_tx.tx_only_eop
+@22
+tb.usbhost.crc16_result[15:0]
+tb.usbhost.usb_tx.tx_data[7:0]
+@28
+tb.usbhost.usb_tx.tx_valid
+tb.usbhost.usb_tx.tx_ready
+tb.usbhost.usb_tx.tx_bit_pulse
+tb.usbhost.usb_tx.is_sof_eop
+[pattern_trace] 1
+[pattern_trace] 0

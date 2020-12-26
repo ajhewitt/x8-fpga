@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.1" title="x8" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" default_implementation="impl">
+    <Options/>
+    <Implementation title="impl" dir="impl" description="impl" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="top" top="top"/>
+        <Source name="source/top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="source/sysctl.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/reset_sync.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/cpu/ALU.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/cpu/cpu_65c02.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/uart/uart.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/uart/uart_rx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/uart/uart_rx_fifo.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/uart/uart_tx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/main_ram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/boot_rom.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/spi/spictrl.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/usb/usb_crc5_11.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/usb/usb_crc16.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/usb/usb_crc16_8.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/usb/usb_rx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/usb/usb_tx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/usb/usbhost.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/video/video.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/pulse2pulse.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="generated/palette_ram/palette_ram.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="generated/sprite_ram/sprite_ram.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/video/dpram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/video/video_ram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/video/line_renderer.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/video/video_vga.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/audio/audio.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="generated/vga_pll/vga_pll.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/usb/fifo_512x8.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/led_if.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/audio/pwm_dac.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/audio/psg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/audio/audio_fifo.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/audio/pcm.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/impl.ldc" type="LSE Design Constraints File" type_short="LDC">
+            <Options/>
+        </Source>
+        <Source name="source/impl.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="source/impl.sdc" type="Synplify Design Constraints File" type_short="SDC">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="x8.sty"/>
+</RadiantProject>

@@ -1,0 +1,72 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue Jun  2 13:21:29 2020
+[*]
+[dumpfile] "/home/frank/Work/x8/fpga/source/audio/sim/tb.vcd"
+[dumpfile_mtime] "Tue Jun  2 13:18:49 2020"
+[dumpfile_size] 7716202
+[savefile] "/home/frank/Work/x8/fpga/source/audio/sim/tb.gtkw"
+[timestart] 0
+[size] 1920 1024
+[pos] 639 0
+*-31.487011 1920000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[treeopen] tb.audio.
+[treeopen] tb.audio.psg.
+[sst_width] 250
+[signals_width] 289
+[sst_expanded] 1
+[sst_vpaned_height] 421
+@28
+tb.audio.clk
+tb.audio.rst
+@200
+-
+@22
+tb.audio.ram_wraddr[4:0]
+tb.audio.ram_wrdata[7:0]
+@28
+tb.audio.ram_write
+@200
+-
+-DAC
+@28
+tb.audio.pwm_dac.next_sample
+@8420
+tb.audio.pwm_dac.left_data[15:0]
+@420
+tb.audio.pwm_dac.right_data[15:0]
+@200
+-
+@8024
+tb.audio.pwm_dac.left_sample[15:0]
+@24
+tb.audio.pwm_dac.right_sample[15:0]
+@200
+-
+@28
+tb.audio.audio_l
+tb.audio.audio_r
+@200
+-
+-
+@22
+tb.audio.psg.left_accum_r[15:0]
+@200
+-
+-
+@420
+tb.audio.psg.scaled_signal[11:0]
+@200
+-
+-
+@22
+tb.audio.psg.cur_channel_r[3:0]
+@28
+tb.audio.psg.clk
+@22
+tb.audio.psg.cur_volume[5:0]
+@28
+tb.audio.psg.cur_waveform[1:0]
+[pattern_trace] 1
+[pattern_trace] 0

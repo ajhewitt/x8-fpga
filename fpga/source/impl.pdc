@@ -1,0 +1,76 @@
+# Clock inputs
+ldc_set_location -site {35} [get_ports {sysclk_1}]
+ldc_set_location -site {37} [get_ports {sysclk_2}]
+
+# VGA
+ldc_set_location -site {13} [get_ports {vga_r[3]}]
+ldc_set_location -site {12} [get_ports {vga_r[2]}]
+ldc_set_location -site {11} [get_ports {vga_r[1]}]
+ldc_set_location -site {10} [get_ports {vga_r[0]}]
+ldc_set_location -site {9}  [get_ports {vga_g[3]}]
+ldc_set_location -site {6}  [get_ports {vga_g[2]}]
+ldc_set_location -site {4}  [get_ports {vga_g[1]}]
+ldc_set_location -site {3}  [get_ports {vga_g[0]}]
+ldc_set_location -site {2}  [get_ports {vga_b[3]}]
+ldc_set_location -site {48} [get_ports {vga_b[2]}]
+ldc_set_location -site {47} [get_ports {vga_b[1]}]
+ldc_set_location -site {46} [get_ports {vga_b[0]}]
+ldc_set_location -site {45} [get_ports vga_vsync]
+ldc_set_location -site {44} [get_ports vga_hsync]
+
+# SPI
+ldc_set_location -site {15} [get_ports flash_sck]
+ldc_set_location -site {14} [get_ports flash_mosi]
+ldc_set_location -site {17} [get_ports flash_miso]
+ldc_set_location -site {16} [get_ports flash_ssel_n]
+
+ldc_set_location -site {31} [get_ports sd_sck]
+ldc_set_location -site {28} [get_ports sd_mosi]
+ldc_set_location -site {32} [get_ports sd_miso]
+ldc_set_location -site {20} [get_ports sd_ssel_n]
+
+# Debug serial interface
+ldc_set_location -site {18} [get_ports dbg_txd]
+ldc_set_location -site {19} [get_ports dbg_rxd]
+
+# USB
+ldc_set_location -site {23} [get_ports usb1_dp]
+ldc_set_location -site {21} [get_ports usb1_dm]
+ldc_set_location -site {26} [get_ports usb2_dp]
+ldc_set_location -site {25} [get_ports usb2_dm]
+
+# LED and button
+ldc_set_location -site {27} [get_ports led]
+ldc_set_location -site {41} [get_ports button]
+
+# Expansion
+ldc_set_location -site {34} [get_ports exp3]
+
+# Wi-Fi serial interface
+ldc_set_location -site {38} [get_ports wifi_txd]
+ldc_set_location -site {39} [get_ports wifi_rxd]
+ldc_set_location -site {36} [get_ports wifi_rts]
+ldc_set_location -site {40} [get_ports wifi_cts]
+
+# Audio
+ldc_set_location -site {43} [get_ports audio_l]
+ldc_set_location -site {42} [get_ports audio_r]
+
+# Settings
+ldc_set_vcc -core 1.2
+ldc_set_vcc -bank 0 3.3
+ldc_set_vcc -bank 1 3.3
+ldc_set_vcc -bank 2 3.3
+
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports usb1_dp]
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports usb1_dm]
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports usb2_dp]
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports usb2_dm]
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports sysclk_1]
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports sysclk_2]
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports dbg_rxd]
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports wifi_rxd]
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports flash_miso]
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports flash_mosi]
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports sd_miso]
+ldc_set_port -iobuf {PULLMODE=NA} [get_ports sd_mosi]

@@ -1,0 +1,187 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Mon Jun  1 13:51:43 2020
+[*]
+[dumpfile] "/home/frank/Work/x8/fpga/source/sim/tb.vcd"
+[dumpfile_mtime] "Mon Jun  1 13:50:12 2020"
+[dumpfile_size] 6236325
+[savefile] "/home/frank/Work/x8/fpga/source/sim/tb.gtkw"
+[timestart] 65031000
+[size] 2560 1384
+[pos] 0 27
+*-18.869078 66974000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb.
+[treeopen] tb.top.
+[treeopen] tb.top.audio.
+[treeopen] tb.top.main_ram.
+[treeopen] tb.top.spictrl.
+[treeopen] tb.top.video.
+[treeopen] tb.top.video.line_renderer.
+[sst_width] 261
+[signals_width] 289
+[sst_expanded] 1
+[sst_vpaned_height] 838
+@28
+tb.top.sysctl.sysclk_2
+tb.top.sysctl.rst_in
+tb.top.sysctl.rst
+tb.top.sys_clk
+tb.top.sys_rst
+@22
+tb.top.cpu_addr[15:0]
+tb.top.cpu_wrdata[7:0]
+@28
+tb.top.cpu_write
+@22
+tb.top.cpu_rddata[7:0]
+@28
+tb.top.cpu_irq
+tb.top.dbg_txd
+tb.top.dbg_rxd
+@200
+-
+@28
+tb.top.bootrom_dis_r
+@200
+-SPI
+@28
+tb.top.spi_mosi
+tb.top.spi_miso
+tb.top.spi_sck
+tb.top.spictrl.busy
+@200
+-
+@22
+tb.top.cpu.A[7:0]
+tb.top.cpu.X[7:0]
+tb.top.cpu.Y[7:0]
+tb.top.cpu.S[7:0]
+@28
+tb.top.cpu.Z
+tb.top.cpu.V
+tb.top.cpu.N
+tb.top.cpu.D
+tb.top.cpu.C
+@200
+-
+@22
+tb.top.video.video_ram.bus_addr[13:0]
+tb.top.video.video_ram.bus_wrdata[31:0]
+@28
+tb.top.video.video_ram.bus_wrbytesel[3:0]
+tb.top.video.video_ram.bus_write
+@200
+-Renderer
+@24
+tb.top.video.line_renderer.state_r[3:0]
+@28
+tb.top.video.line_renderer.render_start
+@24
+tb.top.video.line_renderer.render_line[7:0]
+tb.top.video.line_renderer.xpos_r[9:0]
+tb.top.video.line_renderer.ypos_r[9:0]
+@22
+tb.top.video.line_renderer.bus_addr[13:0]
+@28
+tb.top.video.line_renderer.bus_strobe
+@22
+tb.top.video.line_renderer.bus_rddata[31:0]
+@28
+tb.top.video.line_renderer.bus_ack
+@22
+tb.top.video.line_renderer.map_data_r[15:0]
+tb.top.video.line_renderer.pat_data_r[31:0]
+@200
+-Sprite rendering
+@24
+tb.top.video.sprite_idx[4:0]
+@22
+tb.top.video.sprite_attr[39:0]
+@24
+tb.top.video.line_renderer.spr_enable
+tb.top.video.line_renderer.spr_hflip
+tb.top.video.line_renderer.spr_palette
+tb.top.video.line_renderer.spr_pattern_idx[9:0]
+tb.top.video.line_renderer.spr_priority
+tb.top.video.line_renderer.spr_size
+tb.top.video.line_renderer.spr_vflip
+tb.top.video.line_renderer.spr_x[9:0]
+tb.top.video.line_renderer.spr_y[7:0]
+@200
+-Rasterizer
+@22
+tb.top.video.line_renderer.rast_data_r[31:0]
+@24
+tb.top.video.line_renderer.rast_pos_r[9:0]
+@28
+tb.top.video.line_renderer.rast_start_r
+tb.top.video.line_renderer.map_hflip
+@200
+-
+@24
+tb.top.video.line_renderer.zbuf_rdidx_next[9:0]
+tb.top.video.line_renderer.render_wridx[9:0]
+@28
+tb.top.video.line_renderer.render_write
+tb.top.video.line_renderer.rast_busy
+@24
+tb.top.video.line_renderer.render_wridx_next[9:0]
+tb.top.video.line_renderer.render_wridx[9:0]
+@22
+tb.top.video.line_renderer.render_wrdata[4:0]
+@24
+tb.top.video.line_renderer.z_buffer_wrdata[1:0]
+@29
+tb.top.video.line_renderer.z_buffer_rddata[1:0]
+@200
+-Video
+@28
+tb.top.video.vga_clk
+@22
+tb.top.video.vga_r[3:0]
+tb.top.video.vga_g[3:0]
+tb.top.video.vga_b[3:0]
+@28
+(0)tb.top.video.video_vga.active_r[1:0]
+tb.top.video.vga_hsync
+tb.top.video.vga_vsync
+tb.top.video.video_vga.display_buf_r
+@200
+-
+@28
+tb.top.video.render_start
+@24
+tb.top.video.render_line[7:0]
+@28
+tb.top.video.render_hdouble
+@24
+tb.top.video.video_vga.x_counter[9:0]
+tb.top.video.video_vga.lb_rdidx[9:0]
+@28
+tb.top.video.video_vga.hdouble_r
+@24
+tb.top.video.video_vga.y_counter[9:0]
+@28
+tb.top.video.video_vga.v_active
+@200
+-
+-
+-Audio
+@28
+tb.top.audio.clk
+tb.top.audio.rst
+@200
+-
+@24
+tb.top.audio.cur_channel_r[2:0]
+@22
+tb.top.audio.cur_freq[15:0]
+tb.top.audio.left_accum_r[16:0]
+@28
+tb.top.audio.audio_l
+@22
+tb.top.audio.left_sample_r[16:0]
+@28
+tb.top.audio.audio_l
+[pattern_trace] 1
+[pattern_trace] 0

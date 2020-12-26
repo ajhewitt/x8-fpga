@@ -1,0 +1,12 @@
+*.html
+.floorplanner.ini
+.setting.ini
+.recovery
+*.log
+impl/
+x8_tcr.dir/
+*.dmp
+*.xml
+*.vcd
+a.out
+.ng_run_manager.ini
